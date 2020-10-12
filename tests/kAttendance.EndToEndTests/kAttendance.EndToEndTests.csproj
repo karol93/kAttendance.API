@@ -17,7 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\kAttendance\kAttendance.csproj" />
+    <ProjectReference Include="..\..\src\kAttendance\kAttendance.csproj" />
   </ItemGroup>
 
 </Project>

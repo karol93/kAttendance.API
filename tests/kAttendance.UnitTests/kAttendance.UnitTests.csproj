@@ -17,8 +17,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\kAttendance.Infrastructure\kAttendance.Infrastructure.csproj" />
-    <ProjectReference Include="..\kAttendance.Services\kAttendance.Services.csproj" />
+    <ProjectReference Include="..\..\src\kAttendance.Infrastructure\kAttendance.Infrastructure.csproj" />
+    <ProjectReference Include="..\..\src\kAttendance.Services\kAttendance.Services.csproj" />
   </ItemGroup>
 
 </Project>
