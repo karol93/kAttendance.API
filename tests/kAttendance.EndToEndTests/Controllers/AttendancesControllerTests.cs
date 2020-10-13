@@ -119,7 +119,7 @@ namespace kAttendance.EndToEndTests.Controllers
          var responseString = await response.Content.ReadAsStringAsync();
 
          response.StatusCode.ShouldBeEquivalentTo(HttpStatusCode.BadRequest);
-         responseString.Should().Contain($"Group {groupId} not found.");
+         responseString.Should().Contain($"Wskazana grupa do której próbowano dodać obecność nie istnieje.");
       }
 
       [Fact]
